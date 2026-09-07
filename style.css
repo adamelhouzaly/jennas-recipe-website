@@ -92,23 +92,27 @@ img {
 }
 
 
-
-.img2{
-  background-image: url('https://cdn.glitch.global/a5949be2-ca8c-41ee-8567-d7e5fc512f42/wallpaperflare.com_wallpaper.jpg?v=1732896745238');
+.img2 {
+  background-image: url("./background-image-for-jenna-recipe.avif");
   background-size: cover;
   background-position: center;
   overflow: hidden;
 }
 
-
-.img3{
-  background-image: url('https://conzazoni.com/wp-content/uploads/2023/05/recetas-especiales-con-pastas-conzazoni.webp');
-/*   margin-left:10px; */
+.img3 {
+  background-image: url("./creamy-pasta-photo-for-jenna-recipe.jpeg");
   background-size: cover;
   background-position: center;
-
 }
 
+.space2 {
+  height: 640px;
+  width: 100%;
+  background-image: url("./food-wallpaperforjennarecipe.avif");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
 .text2{
 /*   width:885px;
   height:310px; */
@@ -121,16 +125,6 @@ img {
 }
 /* ///////////////////////////////////////////// */
 
-.space2{
-  height:640px;
-  width:100%;
-  background-image: url('https://cdn.glitch.global/a5949be2-ca8c-41ee-8567-d7e5fc512f42/our%20(1).jpg?v=1732463626649');
-  background-size: cover;
-  background-position: center;
-  opacity:1;
-  overflow: hidden;
-  
-}
 /* //////////// */
 .space3{
   height:1000px;
