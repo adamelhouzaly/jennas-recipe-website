@@ -1,0 +1,189 @@
+
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  
+}
+
+
+body{
+  background-color:#F5F4F0;
+  
+}
+
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* /////////////////// */
+img {
+  opacity: 0.5 !important;
+  height:760px;
+  width:100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-title{
+  font-family: "Vesper Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:45px;
+
+}
+
+.card-text{
+   font-family: "Vesper Libre", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:25px;
+  color:#D9D9D9;
+}
+
+.btn{
+  background-color:#FFC90E;
+  font-weight:500;
+}
+
+/* ///////////////// */
+
+
+.space{
+  height:400px;
+  width:100%;
+  
+}
+
+.Main-container{
+  height:620px;
+  width:70%;
+  margin-left:15%;
+  margin-top:37%;
+
+
+
+}
+
+.Container1{
+  background-color:white;
+}
+
+.text{
+  font-family: "Vesper Libre", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top:20px;
+}
+
+.btn-light{
+  font-family: "Vesper Libre", serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color: rgba(255, 255, 255, 0);
+  padding:10px;
+  width:200px;
+  color:#B8910A;
+  margin-left:25%;
+  margin-bottom:70px;
+}
+
+
+
+.img2{
+  background-image: url('https://cdn.glitch.global/a5949be2-ca8c-41ee-8567-d7e5fc512f42/wallpaperflare.com_wallpaper.jpg?v=1732896745238');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+.img3{
+  background-image: url('https://conzazoni.com/wp-content/uploads/2023/05/recetas-especiales-con-pastas-conzazoni.webp');
+/*   margin-left:10px; */
+  background-size: cover;
+  background-position: center;
+
+}
+
+.text2{
+/*   width:885px;
+  height:310px; */
+  background-color:white;
+}
+
+
+.texttt{
+  margin-bottom:70px;
+}
+/* ///////////////////////////////////////////// */
+
+.space2{
+  height:640px;
+  width:100%;
+  background-image: url('https://cdn.glitch.global/a5949be2-ca8c-41ee-8567-d7e5fc512f42/our%20(1).jpg?v=1732463626649');
+  background-size: cover;
+  background-position: center;
+  opacity:1;
+  overflow: hidden;
+  
+}
+/* //////////// */
+.space3{
+  height:1000px;
+  width:100%;
+
+}
+
+.Menu-Container{
+  display:flex;
+  height:500px;
+  margin-top:60px;
+}
+
+.firstR,.firstB{
+  margin-left:150px !important;
+  
+}
+
+.Rowf,.Rowb,.firstR,.firstB{
+  margin-top:20px;
+  
+}
+
+
+.Rowf,.firstR{
+  font-family: "Kaushan Script", cursive;
+  font-weight: 200;
+  font-style: normal;
+  color:#d0a408;
+}
+
+.Rowb,.firstB{
+  font-family: "Kaushan Script", cursive;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.Menu{
+  margin-top:50px;
+  font-size:50px;
+  font-weight:500;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pa{
+  font-family: "Vesper Libre", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size:22px;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 100;
+  font-style: normal;
+  color:#d0a408;
+}

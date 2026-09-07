@@ -1,0 +1,285 @@
+
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  
+}
+
+
+body{
+  background-color:#F5F4F0;
+  
+}
+
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* /////////////////// */
+img {
+  opacity: 0.5 !important;
+  height:830px;
+  width:100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-title{
+  font-family: "Vesper Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:45px;
+
+}
+
+.card-text{
+   font-family: "Vesper Libre", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:25px;
+  color:#D9D9D9;
+}
+
+/* ///////////////// */
+
+/* ///////////////// */
+
+
+.portrait{
+  height:700px;
+  width:500px;
+  margin:100px;
+  opacity:1 !important;
+  border-radius:10%;
+}
+
+.ImageAndText{
+  display:flex;
+}
+
+.text-history{
+  margin-left:5%;
+  margin-top:10%;
+  height:300px;
+  width:900px;
+
+  
+}
+
+.Name{
+  font-size:75px;
+  font-family: "Vesper Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.History{
+  font-size:25px;
+  margin-top:20px;
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ///////////////////////////// */
+
+
+.x-container{
+  height:150px;
+  width:150px;
+/*   border:1px solid black; */
+  overflow: hidden;
+/*   background-color:black; */
+/*   border-radius:10%; */
+  margin-top:20px;
+}
+
+
+
+.x-container img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+    display: block; 
+    opacity: 1 !important;
+    border-radius:10%;
+
+  
+}
+
+.socialMedia{
+  display:flex;
+  margin-left:0px;
+}
+
+.x1,.x2,.x3,.x4{
+  margin-left:50px;
+}
+
+/* //////////////////////////////////////////////// */
+
+.space2{
+  height:600px;
+  width:100%;
+  background-image: url('https://cdn.glitch.global/a5949be2-ca8c-41ee-8567-d7e5fc512f42/alyson-mcphee-yWG-ndhxvqY-unsplash.jpg?v=1732981603608');
+  background-size: cover;
+  background-position: center;
+  opacity:0.8;
+  overflow: hidden;
+  
+}
+/* /////////////////////////////////// */
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-size: calc(5px + 0.4vw);
+}
+.texttt {
+  font-family: 'Playfair Display', serif;
+}
+.a {
+	text-decoration: none;
+}
+.intro {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+.left {
+	float: left;
+	height: 100%;
+	width: 60%;
+	padding: 3rem 3rem 3rem 5rem;
+	display: table;
+}
+.left > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+.spann {
+  color: #E8CA2B;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin-bottom: 4rem;
+}
+h1 {
+	font-size: 8rem;
+	margin-bottom: 3rem;
+}
+h1 + p {
+  color: #949494;
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+}
+p + a {
+  font-size: 1.6rem;
+  color: #000;
+}
+.slider {
+	float: right;
+	position: relative;
+	width: 40%;
+	height: 100%;
+}
+.slider li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	transition: clip .7s ease-in-out, z-index 0s .7s;
+	clip: rect(0, 100vw, 100vh, 100vw);
+	display: table;
+}
+.center-y {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+}
+h3 {
+	font-size: 5rem;
+	font-style: italic;
+}
+h3 + a {
+	font-size: 1.6rem;
+	display: inline-block;
+	color: #fff;
+	margin-top: 2rem;
+}
+h3, h3 + a {
+	opacity: 0;
+	transition: opacity .7s 0s, transform .5s .2s;
+	transform: translate3d(0, 50%, 0);
+}
+li.current h3, li.current h3 + a {
+	opacity: 1;
+	transition-delay: 1s;
+	transform: translate3d(0, 0, 0);
+}
+li.current {
+	z-index: 1;
+	clip: rect(0, 100vw, 100vh, 0);
+}
+li.prev {
+	clip: rect(0, 0, 100vh, 0);
+}
+.slider nav {
+	position: absolute;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 10;
+}
+.nav a {
+	display: inline-block;
+	border-radius: 50%;
+	width: 1.2rem;
+	height: 1.2rem;
+  min-width: 12px;
+  min-height: 12px;
+	background: #fff;
+	margin: 0 1rem;
+  transition: transform .3s;
+}
+a.current_dot {
+	transform: scale(1.4);
+}
+@media screen and (max-width: 700px) {
+	.left {
+		width: 100%;
+		height: 30%;
+	}
+	.slider {
+		width: 100%;
+		height: 70%;
+	}
+}
+
+h3{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.a{
+    background-color: rgba(0, 0, 0, 0.5);  
+  color:white;
+}
